@@ -1,0 +1,23 @@
+{
+  "name": "github-activity-cli",
+  "version": "1.0.0",
+  "description": "",
+  "exports": "./index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index",
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "inquirer": "^12.3.2",
+    "nanospinner": "^1.2.2"
+  },
+  "bin": {
+    "github-activity": "index.js"
+  }
+}
